@@ -68,10 +68,10 @@
 // ---------------- Live chat demo widgets ----------------
 (function () {
   const BOT_META = {
-    lumora: { cls: 'salon', emoji: '💇', title: { en: 'Lumora Beauty Studio', ar: 'صالون لومورا للتجميل' } },
-    wanderly: { cls: 'travel', emoji: '✈️', title: { en: 'Wanderly Travel & Tours', ar: 'واندرلي للسفر والسياحة' } },
-    brightpath: { cls: 'academy', emoji: '🎓', title: { en: 'BrightPath Academy', ar: 'أكاديمية برايت باث' } },
-    xiii: { cls: 'xiii', emoji: '💬', title: { en: 'Ask about XIII', ar: 'اسأل عن XIII' } },
+    lumora: { cls: 'salon', title: { en: 'Lumora Beauty Studio', ar: 'صالون لومورا للتجميل' } },
+    wanderly: { cls: 'travel', title: { en: 'Wanderly Travel & Tours', ar: 'واندرلي للسفر والسياحة' } },
+    brightpath: { cls: 'academy', title: { en: 'BrightPath Academy', ar: 'أكاديمية برايت باث' } },
+    xiii: { cls: 'xiii', title: { en: 'Ask about XIII', ar: 'اسأل عن XIII' } },
   };
 
   function currentLang() {
@@ -139,7 +139,7 @@
       header.className = 'phone-header ' + meta.cls;
       const titleEl = header.querySelector('[data-bot-title]');
       if (titleEl) titleEl.textContent = meta.title[currentLang()];
-      else header.innerHTML = meta.emoji + ' <span data-bot-title>' + meta.title[currentLang()] + '</span>';
+      else header.innerHTML = '<span data-bot-title>' + meta.title[currentLang()] + '</span>';
     }
 
     function setBot(id) {
