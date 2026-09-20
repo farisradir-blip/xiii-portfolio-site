@@ -5,14 +5,13 @@ const I18N = {
     'nav.skills': 'Skills',
     'nav.contact': 'Contact',
 
-    'hero.eyebrow': 'Chatbot Developer',
-    'hero.title': 'builds messaging bots<br/>that businesses actually use',
-    'hero.desc': 'I build custom messaging chatbots — for WhatsApp, Messenger, and Instagram — for any business, in any industry. You tell me about your business, I design, build, and connect the bot for you. No technical work on your end.',
+    'hero.title': ': Chatbot developer for businesses and their users, with the ability to build interfaces for the bots — not just the backend.',
+    'hero.desc': 'I build custom chatbots and AI agents — for websites, online stores, and social media — for any business, in any industry. You tell me about your business, I design, build, and connect the bot for you. No technical work on your end.',
     'hero.cta1': 'View my work',
     'hero.cta2': 'Get in touch',
-    'hero.badge1': 'WhatsApp Cloud API',
-    'hero.badge2': 'Messenger Platform',
-    'hero.badge3': 'Instagram Messaging',
+    'hero.badge1': 'Websites',
+    'hero.badge2': 'E-Commerce',
+    'hero.badge3': 'Social Media',
     'hero.demoHint': 'Try it — this is a real, working bot. Type anything.',
 
     'tabs.lumora': 'Lumora',
@@ -24,7 +23,7 @@ const I18N = {
 
     'work.label': 'Selected Work',
     'work.title': 'Chatbots built end-to-end',
-    'work.desc': 'Three complete, working chatbot systems — each with a full conversation engine, bilingual support (Arabic/English), and real integration code for WhatsApp, Messenger, and Instagram via Meta\'s official APIs. Try them yourself below.',
+    'work.desc': "I'm XIII — I build chatbots and AI agents for websites, online stores, and social media, from a simple FAQ bot to a full agent that navigates your site for your visitors. The three systems below show the same engine adapted for three different businesses — try them yourself.",
 
     'p1.phoneTitle': 'Lumora Beauty Studio',
     'p1.title': 'Lumora Beauty Studio',
@@ -43,14 +42,22 @@ const I18N = {
 
     'project.cta': 'Get a bot like this →',
 
+    'work.futureLabel': 'Coming Soon',
+    'work.futureTitle': "What I'm building next",
+    'work.futureDesc': "The next chapter — bots that don't just answer, they act.",
+    'future1.title': 'In-Site AI Agent',
+    'future1.desc': 'An agent embedded in your website that controls the interface itself — it navigates visitors to the exact page, product, or section they ask for, through chat alone.',
+    'future2.title': 'E-Commerce Shopping Assistant',
+    'future2.desc': 'A store bot that recommends products, tracks orders, and answers questions — built into your online store, not bolted on.',
+
     'about.label': 'About',
     'about.title': "Who's XIII?",
-    'about.text': "I'm a chatbot developer focused on one thing: turning any business's WhatsApp, Messenger, or Instagram into a working sales and support channel — whatever the industry. You just share your business details with me; I handle the full pipeline myself — conversation design, multi-step booking/ordering flows, bilingual support, and the official Meta API integration — so the bot feels native to how customers already message the business.",
+    'about.text': "I'm a chatbot developer focused on one thing: turning any business's website, online store, or social media into a working sales and support channel — whatever the industry. You just share your business details with me; I handle the full pipeline myself — conversation design, multi-step booking/ordering flows, bilingual support, and full integration — so the bot feels like a natural part of your business.",
 
     'skills.label': 'Toolbox',
     'skills.title': 'What I work with',
-    'skills.g1': 'Messaging Platforms',
-    'skills.g1desc': 'WhatsApp Cloud API · Messenger Platform · Instagram Messaging · Webhook architecture',
+    'skills.g1': 'Integrations',
+    'skills.g1desc': 'Website embeds · E-commerce platforms · Social media APIs · Webhook architecture',
     'skills.g2': 'Backend',
     'skills.g2desc': 'Node.js · Express · REST APIs · Conversational state machines',
     'skills.g3': 'Localization',
@@ -72,14 +79,13 @@ const I18N = {
     'nav.skills': 'المهارات',
     'nav.contact': 'تواصل',
 
-    'hero.eyebrow': 'مطوّر بوتات محادثة',
-    'hero.title': 'يبني بوتات مراسلة<br/>تستخدمها الشركات فعلياً',
-    'hero.desc': 'أبني بوتات محادثة مخصصة — واتساب، ماسنجر، وانستغرام — لأي نشاط تجاري وأي مجال، كيفما كان. تحكيلي عن نشاطك، وأنا أصمم وأبني وأربط لك البوت بنفسي. ما عليك أي شغل تقني.',
+    'hero.title': ': مطوّر بوتات دردشة للشركات والمستخدمين، مع إمكانية إنشاء واجهات للبوتات وليس فقط الباك إند.',
+    'hero.desc': 'أبني بوتات ووكلاء ذكاء اصطناعي مخصصة — للمواقع الإلكترونية والمتاجر الإلكترونية ووسائل التواصل الاجتماعي — لأي نشاط تجاري وأي مجال، كيفما كان. تحكيلي عن نشاطك، وأنا أصمم وأبني وأربط لك البوت بنفسي. ما عليك أي شغل تقني.',
     'hero.cta1': 'شاهد أعمالي',
     'hero.cta2': 'تواصل معي',
-    'hero.badge1': 'WhatsApp Cloud API',
-    'hero.badge2': 'Messenger Platform',
-    'hero.badge3': 'Instagram Messaging',
+    'hero.badge1': 'مواقع إلكترونية',
+    'hero.badge2': 'متاجر إلكترونية',
+    'hero.badge3': 'وسائل تواصل اجتماعي',
     'hero.demoHint': 'جرّبه — هذا بوت حقيقي شغّال فعلياً. اكتب أي شيء.',
 
     'tabs.lumora': 'لومورا',
@@ -91,7 +97,7 @@ const I18N = {
 
     'work.label': 'أعمال مختارة',
     'work.title': 'بوتات مبنية من الألف إلى الياء',
-    'work.desc': 'ثلاثة أنظمة بوتات كاملة وشغّالة — كل واحد فيه محرك محادثة متكامل، دعم ثنائي اللغة (عربي/إنجليزي)، وكود تكامل حقيقي مع واتساب وماسنجر وانستغرام عبر واجهات ميتا الرسمية. جرّبها بنفسك بالأسفل.',
+    'work.desc': 'أنا XIII — أبني بوتات ووكلاء ذكاء اصطناعي للمواقع الإلكترونية والمتاجر ووسائل التواصل الاجتماعي، من بوت أسئلة بسيط إلى وكيل كامل يتنقّل بزوار موقعك بنفسه. الأنظمة الثلاثة بالأسفل تعرض نفس المحرك مُكيّفًا لثلاث شركات مختلفة — جرّبها بنفسك.',
 
     'p1.phoneTitle': 'صالون لومورا للتجميل',
     'p1.title': 'صالون لومورا للتجميل',
@@ -110,14 +116,22 @@ const I18N = {
 
     'project.cta': 'أريد بوت مثل هذا ←',
 
+    'work.futureLabel': 'قريبًا',
+    'work.futureTitle': 'اللي بابنيه بعد',
+    'work.futureDesc': 'الفصل الجاي — بوتات ما تكتفيش بالإجابة، بل تتصرف بنفسها.',
+    'future1.title': 'وكيل ذكاء اصطناعي داخل الموقع',
+    'future1.desc': 'وكيل مدمج داخل موقعك يتحكم بالواجهة بنفسه — يوصّل الزائر بالضبط للصفحة أو المنتج أو القسم اللي يطلبه، عبر الدردشة فقط.',
+    'future2.title': 'مساعد تسوق للمتاجر الإلكترونية',
+    'future2.desc': 'بوت متجر يرشّح منتجات، يتابع الطلبات، ويجاوب على الأسئلة — مدمج داخل متجرك الإلكتروني، مو مضاف عليه من برا.',
+
     'about.label': 'نبذة',
     'about.title': 'من هو XIII؟',
-    'about.text': 'أنا مطوّر بوتات محادثة أركّز على شيء واحد: تحويل واتساب أو ماسنجر أو انستغرام أي شركة إلى قناة مبيعات ودعم شغّالة فعلياً — كيفما كان مجال عملها. كل اللي عليك هو تحكيلي عن تفاصيل نشاطك، وأنا أتولى العملية كاملة بنفسي — تصميم المحادثة، تدفقات الحجز/الطلب متعددة الخطوات، الدعم ثنائي اللغة، والتكامل مع واجهات ميتا الرسمية — بحيث يبدو البوت جزءاً طبيعياً من الطريقة التي يراسل فيها العملاء الشركة أصلاً.',
+    'about.text': 'أنا مطوّر بوتات محادثة أركّز على شيء واحد: تحويل موقع أو متجر إلكتروني أو حساب تواصل اجتماعي لأي نشاط تجاري إلى قناة مبيعات ودعم شغّالة فعليًا — كيفما كان مجال العمل. كل اللي عليك هو تحكيلي عن تفاصيل نشاطك، وأنا أتولى العملية كاملة بنفسي — تصميم المحادثة، تدفقات الحجز/الطلب متعددة الخطوات، الدعم ثنائي اللغة، والتكامل الكامل — بحيث يبدو البوت جزءًا طبيعيًا من نشاطك.',
 
     'skills.label': 'أدواتي',
     'skills.title': 'اللي أشتغل فيه',
-    'skills.g1': 'منصات المراسلة',
-    'skills.g1desc': 'WhatsApp Cloud API · Messenger Platform · Instagram Messaging · بنية Webhooks',
+    'skills.g1': 'التكاملات',
+    'skills.g1desc': 'تضمين بالمواقع الإلكترونية · منصات المتاجر الإلكترونية · واجهات وسائل التواصل الاجتماعي · بنية Webhooks',
     'skills.g2': 'الباك إند',
     'skills.g2desc': 'Node.js · Express · REST APIs · آلات حالة المحادثة',
     'skills.g3': 'التعريب',

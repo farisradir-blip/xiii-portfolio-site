@@ -4,23 +4,24 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>XIII — Chatbot Developer</title>
-<meta name="description" content="XIII — I build custom messaging chatbots for any business, on WhatsApp, Messenger, and Instagram. Tell me about your business, I build the bot." />
+<meta name="description" content="XIII — I build custom chatbots and AI agents for websites, online stores, and social media. Tell me about your business, I build the bot." />
 <link rel="icon" type="image/png" href="assets/favicon.png">
 <link rel="apple-touch-icon" href="assets/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Bebas+Neue&family=Space+Mono:wght@400;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <div class="bg-grid"></div>
+<div class="bg-watermark"></div>
 <div class="bg-glow"></div>
 
 <header class="nav">
-  <a href="#top" class="brand">XIII<span class="brand-dot">.</span></a>
+  <a href="#top" class="brand"><span class="brand-num">13</span>XIII<span class="brand-dot">.</span></a>
   <nav class="nav-links">
-    <a href="#work" data-i18n="nav.work">Work</a>
+    <a href="work.html" data-i18n="nav.work">Work</a>
     <a href="#about" data-i18n="nav.about">About</a>
     <a href="#skills" data-i18n="nav.skills">Skills</a>
     <a href="#contact" data-i18n="nav.contact">Contact</a>
@@ -33,11 +34,10 @@
 <main id="top">
 
   <section class="hero">
-    <p class="eyebrow" data-i18n="hero.eyebrow">Chatbot Developer</p>
-    <h1 class="hero-title">
-      <span class="hero-name">XIII</span>
-      <span class="hero-sub" data-i18n="hero.title">builds messaging bots<br/>that businesses actually use</span>
+    <h1 class="hero-name-row">
+      <img class="hero-name-logo" src="assets/xiii-logo.png" alt="XIII" />
     </h1>
+    <p class="hero-sub" data-i18n="hero.title">: Chatbot developer for businesses and their users, with the ability to build interfaces for the bots — not just the backend.</p>
     <div class="hero-demo">
       <div class="hero-demo-tabs" data-tabs>
         <button type="button" class="active" data-bot-tab="lumora"><span data-i18n="tabs.lumora">Lumora</span></button>
@@ -55,99 +55,19 @@
       </div>
     </div>
     <p class="hero-desc" data-i18n="hero.desc">
-      I build custom messaging chatbots — for WhatsApp, Messenger, and
-      Instagram — for any business, in any industry. You tell me about your
-      business, I design, build, and connect the bot for you. No technical
-      work on your end.
+      I build custom chatbots and AI agents — for websites, online stores,
+      and social media — for any business, in any industry. You tell me about
+      your business, I design, build, and connect the bot for you. No
+      technical work on your end.
     </p>
     <div class="hero-actions">
-      <a href="#work" class="btn btn-primary" data-i18n="hero.cta1">View my work</a>
+      <a href="work.html" class="btn btn-primary" data-i18n="hero.cta1">View my work</a>
       <a href="#contact" class="btn btn-ghost" data-i18n="hero.cta2">Get in touch</a>
     </div>
     <div class="hero-badges">
-      <span data-i18n="hero.badge1">WhatsApp Cloud API</span>
-      <span data-i18n="hero.badge2">Messenger Platform</span>
-      <span data-i18n="hero.badge3">Instagram Messaging</span>
-    </div>
-  </section>
-
-  <section id="work" class="section">
-    <p class="section-label" data-i18n="work.label">Selected Work</p>
-    <h2 class="section-title" data-i18n="work.title">Chatbots built end-to-end</h2>
-    <p class="section-desc" data-i18n="work.desc">
-      Three complete, working chatbot systems — each with a full conversation
-      engine, bilingual support (Arabic/English), and real integration code for
-      WhatsApp, Messenger, and Instagram via Meta's official APIs.
-    </p>
-
-    <div class="projects">
-
-      <article class="project-card">
-        <div class="project-preview">
-          <div class="phone-mock" data-widget data-bot="lumora">
-            <div class="phone-header salon"><span data-i18n="p1.phoneTitle">Lumora Beauty Studio</span></div>
-            <div class="phone-body" data-messages></div>
-            <form class="phone-input" data-input-form>
-              <input type="text" data-input data-i18n-placeholder="chat.placeholder" placeholder="Type a message…" autocomplete="off" />
-              <button type="submit" aria-label="Send">➤</button>
-            </form>
-          </div>
-        </div>
-        <div class="project-info">
-          <h3 data-i18n="p1.title">Lumora Beauty Studio</h3>
-          <p class="project-tag" data-i18n="p1.tag">Beauty salon · Booking bot</p>
-          <p data-i18n="p1.desc">Bilingual booking assistant — service catalog, multi-step appointment booking with reference numbers, hours/location, FAQs.</p>
-          <div class="chip-row">
-            <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">WhatsApp Cloud API</span><span class="chip">Messenger</span><span class="chip">Instagram</span>
-          </div>
-          <a href="#contact" class="btn btn-small" data-i18n="project.cta">Get a bot like this →</a>
-        </div>
-      </article>
-
-      <article class="project-card reverse">
-        <div class="project-preview">
-          <div class="phone-mock" data-widget data-bot="wanderly">
-            <div class="phone-header travel"><span data-i18n="p2.phoneTitle">Wanderly Travel & Tours</span></div>
-            <div class="phone-body" data-messages></div>
-            <form class="phone-input" data-input-form>
-              <input type="text" data-input data-i18n-placeholder="chat.placeholder" placeholder="Type a message…" autocomplete="off" />
-              <button type="submit" aria-label="Send">➤</button>
-            </form>
-          </div>
-        </div>
-        <div class="project-info">
-          <h3 data-i18n="p2.title">Wanderly Travel & Tours</h3>
-          <p class="project-tag" data-i18n="p2.tag">Travel agency · Quote-request bot</p>
-          <p data-i18n="p2.desc">Trip package browser and quote-request flow — 6 destinations, traveler count, travel month, auto-generated inquiry reference.</p>
-          <div class="chip-row">
-            <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">WhatsApp Cloud API</span><span class="chip">Messenger</span><span class="chip">Instagram</span>
-          </div>
-          <a href="#contact" class="btn btn-small" data-i18n="project.cta">Get a bot like this →</a>
-        </div>
-      </article>
-
-      <article class="project-card">
-        <div class="project-preview">
-          <div class="phone-mock" data-widget data-bot="brightpath">
-            <div class="phone-header academy"><span data-i18n="p3.phoneTitle">BrightPath Academy</span></div>
-            <div class="phone-body" data-messages></div>
-            <form class="phone-input" data-input-form>
-              <input type="text" data-input data-i18n-placeholder="chat.placeholder" placeholder="Type a message…" autocomplete="off" />
-              <button type="submit" aria-label="Send">➤</button>
-            </form>
-          </div>
-        </div>
-        <div class="project-info">
-          <h3 data-i18n="p3.title">BrightPath Learning Academy</h3>
-          <p class="project-tag" data-i18n="p3.tag">Training academy · Enrollment bot</p>
-          <p data-i18n="p3.desc">Course enrollment assistant — course catalog, schedule selection (morning/evening/weekend), seat-reservation with deposit info.</p>
-          <div class="chip-row">
-            <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">WhatsApp Cloud API</span><span class="chip">Messenger</span><span class="chip">Instagram</span>
-          </div>
-          <a href="#contact" class="btn btn-small" data-i18n="project.cta">Get a bot like this →</a>
-        </div>
-      </article>
-
+      <span data-i18n="hero.badge1">Websites</span>
+      <span data-i18n="hero.badge2">E-Commerce</span>
+      <span data-i18n="hero.badge3">Social Media</span>
     </div>
   </section>
 
@@ -156,12 +76,11 @@
     <h2 class="section-title" data-i18n="about.title">Who's XIII?</h2>
     <p class="about-text" data-i18n="about.text">
       I'm a chatbot developer focused on one thing: turning any business's
-      WhatsApp, Messenger, or Instagram into a working sales and support
+      website, online store, or social media into a working sales and support
       channel — whatever the industry. You just share your business details
       with me; I handle the full pipeline myself — conversation design,
-      multi-step booking/ordering flows, bilingual support, and the official
-      Meta API integration — so the bot feels native to how customers already
-      message the business.
+      multi-step booking/ordering flows, bilingual support, and full
+      integration — so the bot feels like a natural part of your business.
     </p>
   </section>
 
@@ -170,8 +89,8 @@
     <h2 class="section-title" data-i18n="skills.title">What I work with</h2>
     <div class="skills-grid">
       <div class="skill-card">
-        <h4 data-i18n="skills.g1">Messaging Platforms</h4>
-        <p data-i18n="skills.g1desc">WhatsApp Cloud API · Messenger Platform · Instagram Messaging · Webhook architecture</p>
+        <h4 data-i18n="skills.g1">Integrations</h4>
+        <p data-i18n="skills.g1desc">Website embeds · E-commerce platforms · Social media APIs · Webhook architecture</p>
       </div>
       <div class="skill-card">
         <h4 data-i18n="skills.g2">Backend</h4>
